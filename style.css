@@ -1,100 +1,23 @@
-/* Reset básico */
-body, h1, p, a, button {
+/* Define o estilo geral da página */
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa; /* Branco gelo */
-    color: #333; /* Preto suave */
-    line-height: 1.6;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    min-height: 100vh;
-}
-
-/* Cabeçalho */
-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    position: absolute;
-    top: 0;
+    height: 100vh;
+    background-color: #f8f9fa; /* Branco gelo */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte sem serifa */
 }
 
-.menu-icon {
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.btn-project {
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    font-size: 14px;
-    color: #333;
-    background-color: transparent;
-}
-
-/* Grid de imagens */
-.image-grid {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 30px auto;
-    width: 90%;
-    max-width: 1200px;
-}
-
-.img-small {
-    width: 30%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.img-large {
-    width: 50%;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* Conteúdo principal */
-.content {
+/* Estilo para o container do texto */
+.container {
     text-align: center;
-    max-width: 800px;
-    margin: 20px auto;
+    color: #000; /* Preto */
 }
 
+/* Estilo para os textos */
 h1 {
-    font-size: 3rem;
-    font-weight: 400;
-    margin-bottom: 20px;
-    line-height: 1.2;
-}
-
-p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-    color: #555;
-}
-
-.btn-call {
-    padding: 10px 20px;
-    background-color: transparent;
-    border: 1px solid #333;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
+    margin: 0;
+    font-size: 3rem; /* Ajuste conforme necessário */
 }
