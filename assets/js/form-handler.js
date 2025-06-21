@@ -1,3 +1,5 @@
+console.log('form-handler.js carregado');
+
 document.addEventListener('DOMContentLoaded', function () {
   const form = document.getElementById('contact-form');
   const status = document.getElementById('form-status');
